@@ -26,7 +26,6 @@ This is a  **Book API** built with **Node.js**, **Express.js**, **MongoDB**, and
 - [Node.js](https://nodejs.org/en/download/) installed.
 - [MongoDB](https://www.mongodb.com/try/download/community) installed and running (or use a cloud MongoDB instance like MongoDB Atlas).
 
-### Step 1: Clone the Repository
 
 ### bash
 - git clone https://github.com/sachin4real/BooksManagement_RestApi.git
