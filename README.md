@@ -1,6 +1,3 @@
-# BooksManagement_RestApi
-
-
 # Book Management API with JWT Authentication
 
 This is a  **Book API** built with **Node.js**, **Express.js**, **MongoDB**, and **JWT Authentication**. It allows users to manage a collection of books, with full CRUD functionality, and requires **JWT Authentication** for certain routes (create, update, delete).
@@ -32,34 +29,21 @@ This is a  **Book API** built with **Node.js**, **Express.js**, **MongoDB**, and
 ### Step 1: Clone the Repository
 
 ### bash
-git clone https://github.com/sachin4real/BooksManagement_RestApi.git
-cd BooksManagement_Rest
+- git clone https://github.com/sachin4real/BooksManagement_RestApi.git
+- cd BooksManagement_Rest
 
 
-### Api End Points
+## API Endpoints
 
-- API Routes
-Authentication Routes
-POST /api/auth/register
-Register a new user.
+### Authentication Routes
 
-POST /api/auth/login
-Login and get a JWT token.
+- `POST /api/auth/register`
+- `POST /api/auth/login`
 
-Book Routes (Protected by JWT Authentication)
-GET /api/books
-Get all books (public route).
+### Book Routes (Protected by JWT Authentication)
 
-GET /api/books/:id
-Get a book by ID (public route).
-
-POST /api/books
-Create a new book (protected route).
-
-PUT /api/books/:id
-Update a book by ID (protected route).
-
-DELETE /api/books/:id
-Delete a book by ID (protected route).
-
-
+- `GET /api/books`
+- `GET /api/books/:id`
+- `POST /api/books`
+- `PUT /api/books/:id`
+- `DELETE /api/books/:id`
