@@ -89,7 +89,7 @@ describe('Auth Controller Tests', () => {
       expect(jwt.sign).toHaveBeenCalledWith(
         { userId: 'user123' },
         'test_secret',
-        { expiresIn: '1h' }
+        { expiresIn: '24h' }
       );
       expect(res.json).toHaveBeenCalledWith({ token: mockToken });
     });
