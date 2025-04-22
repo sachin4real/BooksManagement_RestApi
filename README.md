@@ -8,6 +8,7 @@ This is a **Book API** built with **Node.js**, **Express.js**, **MongoDB**, and 
 - **CRUD** operations to manage books.
 - **MongoDB** for storing books and user credentials.
 - **User Registration** and **Login** with password encryption.
+- **Jest Testing** for Testing.
 
 ## Technologies
 
@@ -17,6 +18,7 @@ This is a **Book API** built with **Node.js**, **Express.js**, **MongoDB**, and 
 - **JWT** (Authentication)
 - **bcryptjs** (Password hashing)
 - **dotenv** (Environment variables)
+- **Jest** (Testing framework)
 
 ## Installation
 
@@ -85,6 +87,11 @@ This is a **Book API** built with **Node.js**, **Express.js**, **MongoDB**, and 
 - **DELETE** /api/books/:id  
   - Delete a book by ID (protected route).  
   - **Authorization**: `Bearer <your_jwt_token>`
+
+
+ ###  Run Tests
+  - **npm test**
+  - jest will run the tests located in the tests/ folder. The test results will be displayed in your terminal.
 
 
 
